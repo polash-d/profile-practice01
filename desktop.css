@@ -1,0 +1,110 @@
+*{margin: 0; padding:0; box-sizing: border-box; font-family: 'Fira Sans', sans-serif;}
+header{background-color: rgba(4, 141, 73, 0.637); display: flex; padding:10px; width: 100%; justify-content: space-between;}
+
+header>img{margin-left: 5%; width: 50px;}
+
+header>h1{margin:0 auto; text-align: center; flex-grow: 1; font-size: 2rem;}
+
+nav>a{text-decoration: none; display:inline;  background:none;  font: normal bold 1rem arial; color:rgb(248, 236, 236); padding:5px;}
+
+a+a{border-left: 2px solid rgb(126, 235, 175); border-radius: 0;}
+
+/* profile design start */
+
+.profile{padding: 20px 10px; 
+    text-align: center;
+    position: relative;
+}
+.topweather-icon{position: absolute; right: 100px; top: 30px;
+    width:100px;
+    transition: width 0.7s linear;
+}
+.topweather-icon:hover{
+    width: 140px;
+}
+.profile-desc p{ color: gray; margin:0 auto; margin-bottom:20px; width: 75%;}
+
+.btmweather-icon{position: absolute; left: 60px; bottom: 10px;
+    
+    transition:width 0.7s linear;
+}
+.btmweather-icon:hover{
+    width: 100px;
+}
+/* profile design end */
+
+/* about me start */
+
+.about-me{border: 2px solid red; border-left:none; border-right: none;}
+.my-img{margin: 0; padding: 0;top: 100px; width: 90%; max-width: 300px;}
+.about-me div p{text-align: left;}
+[class*="col-"]{padding: 10px; float: left; width: 100%;}
+
+/* .about-me::after{clear: both; */
+    /* display: table;
+    content: '';
+} */
+/* about me end */
+
+/* experience start */
+.experience{
+    padding: 1%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.experience .card{
+    margin: 0;
+    }
+/* experience end */
+
+/* achieve-contact start */
+.achievement{
+    padding-right: 50px;
+}
+
+.achievement-contact{
+    padding: 1%;
+    background-color: rgb(139, 231, 231);
+}
+.contacts button{
+    width: 150px;
+}
+.contact-links{
+    position: relative;
+ }
+ .media-buttons{
+    position: absolute;
+    margin-top: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    text-align: center;
+}
+.achievement-contact div+div{margin: 0;}
+/* achieve-contact end */
+
+/* footer start */
+
+.footer-menu{margin-top: 12px;}
+.footer-menu a{
+    margin-top: 12px;
+    display: inline;
+    padding: 10px;
+    border-radius: 0;
+}
+/* footer end */
+
+/* grid sizes for 12 columns for desktop */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+/* ------------------------ */
